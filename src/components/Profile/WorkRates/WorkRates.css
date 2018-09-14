@@ -1,0 +1,47 @@
+.titleCont {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: #aab3c2;
+    font-family: Roboto;
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+
+.ratesCont {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.ratesCont p,
+.rateForm {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #626b79;
+}
+
+.rateForm div {
+    text-align: center;
+}
+
+.rateForm input {
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 2px;
+    border: solid 0.5px #d5d7e4;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: right;
+    color: #626b79;
+    background-color: transparent;
+}
+
+.rateForm input[type="text"]::-webkit-input-placeholder { color: #626b79; }
+.rateForm input[type="text"]:-ms-input-placeholder { color: #626b79; }
+.rateForm input[type="text"]::-ms-input-placeholder { color: #626b79; }
+.rateForm input[type="text"]::placeholder { color: #626b79; }
+

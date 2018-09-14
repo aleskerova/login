@@ -1,0 +1,212 @@
+.circle,
+.circleSmall,
+.circleMiddle,
+.circleLarge,
+.circleExtraLarge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-align: center;
+  background-color: rgba(73, 138, 250, -1);
+  position:relative;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+}
+
+.circleSmall {
+  width: 70px;
+  height: 70px;
+}
+
+.circleMiddle {
+  width: 150px;
+  height: 150px;
+}
+
+.circleLarge {
+  width: 250px;
+  height: 250px;
+}
+
+.circleExtraLarge {
+  width: 350px;
+  height: 350px;
+}
+
+.circle div,
+.circleSmall div,
+.circleMiddle div ,
+.circleLarge div,
+.circleExtraLarge div {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle div:before,
+.circleSmall div:before,
+.circleMiddle div:before,
+.circleLarge div:before,
+.circleExtraLarge div:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+  background-color: #fff;
+  border-radius: 50%;
+  animation: circleBounceDelay 1.2s infinite ease-in-out both;
+}
+
+.circleMiddle div::before {
+  background-color: #498afa;
+}
+
+.circle div:nth-child(1),
+.circleSmall div:nth-child(1),
+.circleMiddle div:nth-child(1),
+.circleLarge div:nth-child(1),
+.circleExtraLarge div:nth-child(1) {
+  -webkit-transform: rotate(0deg) translate(0, -120%) scale(1.2);
+  transform: rotate(0deg) translate(0, -120%) scale(1.2);
+}
+
+.circle div:nth-child(2),
+.circleSmall div:nth-child(2),
+.circleMiddle div:nth-child(2),
+.circleLarge div:nth-child(2),
+.circleExtraLarge div:nth-child(2) {
+  -webkit-transform: rotate(50deg) translate(0, -120%) scale(1.1);
+  transform: rotate(50deg) translate(0, -120%) scale(1.1);
+}
+
+.circle div:nth-child(3),
+.circleSmall div:nth-child(3),
+.circleMiddle div:nth-child(3),
+.circleLarge div:nth-child(3),
+.circleExtraLarge div:nth-child(3) {
+  -webkit-transform: rotate(95deg) translate(0, -120%) scale(1);
+  transform: rotate(95deg) translate(0, -120%) scale(1);
+}
+
+.circle div:nth-child(4),
+.circleSmall div:nth-child(4),
+.circleMiddle div:nth-child(4),
+.circleLarge div:nth-child(4),
+.circleExtraLarge div:nth-child(4) {
+  -webkit-transform: rotate(140deg) translate(0, -120%) scale(.9);
+  transform: rotate(140deg) translate(0, -120%) scale(.9);
+}
+
+.circle div:nth-child(5),
+.circleSmall div:nth-child(5),
+.circleMiddle div:nth-child(5),
+.circleLarge div:nth-child(5),
+.circleExtraLarge div:nth-child(5) {
+  -webkit-transform: rotate(185deg) translate(0, -120%) scale(0.8);
+  transform: rotate(185deg) translate(0, -120%) scale(0.8);
+}
+
+.circle div:nth-child(6),
+.circleSmall div:nth-child(6),
+.circleMiddle div:nth-child(6),
+.circleLarge div:nth-child(6),
+.circleExtraLarge div:nth-child(6) {
+  -webkit-transform: rotate(230deg) translate(0, -120%) scale(0.7);
+  transform: rotate(230deg) translate(0, -120%) scale(0.7);
+}
+
+.circle div:nth-child(7),
+.circleSmall div:nth-child(7),
+.circleMiddle div:nth-child(7),
+.circleLarge div:nth-child(7),
+.circleExtraLarge div:nth-child(7) {
+  -webkit-transform: rotate(275deg) translate(0, -120%) scale(0.6);
+  transform: rotate(275deg) translate(0, -120%) scale(0.6);
+}
+
+.circle div:nth-child(8),
+.circleSmall div:nth-child(8),
+.circleMiddle div:nth-child(8),
+.circleLarge div:nth-child(8),
+.circleExtraLarge div:nth-child(8) {
+  -webkit-transform: rotate(320deg) translate(0, -120%) scale(0.5);
+  transform: rotate(320deg) translate(0, -120%) scale(0.5);
+}
+
+.circle div:nth-child(2):before,
+.circleSmall div:nth-child(2):before,
+.circleMiddle div:nth-child(2):before,
+.circleLarge div:nth-child(2):before ,
+.circleExtraLarge div:nth-child(2):before {
+  animation-delay: -1.1s;
+}
+.circle div:nth-child(3):before,
+.circleSmall div:nth-child(3):before,
+.circleMiddle div:nth-child(3):before,
+.circleLarge div:nth-child(3):before,
+.circleExtraLarge div:nth-child(3):before {
+    animation-delay: -1s;
+}
+.circle div:nth-child(4):before,
+.circleSmall div:nth-child(4):before,
+.circleMiddle div:nth-child(4):before,
+.circleLarge div:nth-child(4):before,
+.circleExtraLarge div:nth-child(4):before {
+    animation-delay: -0.9s;
+}
+.circle div:nth-child(5):before,
+.circleSmall div:nth-child(5):before,
+.circleMiddle div:nth-child(5):before,
+.circleLarge div:nth-child(5):before,
+.circleExtraLarge div:nth-child(5):before {
+    animation-delay: -0.8s;
+}
+.circle div:nth-child(6):before,
+.circleSmall div:nth-child(6):before,
+.circleMiddle div:nth-child(6):before,
+.circleLarge div:nth-child(6):before,
+.circleExtraLarge div:nth-child(6):before {
+    animation-delay: -0.7s;
+}
+.circle div:nth-child(7):before,
+.circleSmall div:nth-child(7):before,
+.circleMiddle div:nth-child(7):before,
+.circleLarge div:nth-child(7):before,
+.circleExtraLarge div:nth-child(7):before {
+  animation-delay: -0.6s;
+}
+.circle div:nth-child(8):before,
+.circleSmall div:nth-child(8):before,
+.circleMiddle div:nth-child(8):before,
+.circleLarge div:nth-child(8):before,
+.circleExtraLarge div:nth-child(8):before {
+  animation-delay: -0.5s;
+}
+
+@-webkit-keyframes circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circleBounceDelay {
+  0%,
+  80%,
+  100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}

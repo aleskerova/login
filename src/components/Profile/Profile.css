@@ -1,0 +1,7 @@
+.profPage {
+  background-color: #fafbfc;
+  height: 100%;
+  -webkit-box-shadow: inset 0 2px 15px 0 rgba(107, 128, 148, 0.12);
+  box-shadow: inset 0 2px 15px 0 rgba(107, 128, 148, 0.12);
+  padding: 26px 57px 26px 57px;
+}

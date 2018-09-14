@@ -1,0 +1,92 @@
+.titleAccount {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 44px;
+    color: #aab3c2;
+    font-family: Roboto;
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+
+.accountCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.photo {
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+    background-image: url(https://img.buzzfeed.com/buzzfeed-static/static/2015-09/18/16/campaign_images/webdr02/whats-your-ideal-man-2-17606-1442609791-1_dblbig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inputForm {
+    max-width: 40%;
+    height: 100%;
+}
+
+.inputCont2 {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+.inputCont2 div {
+    width: 48%;
+}
+
+.fieldCont {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 8px;
+    align-items: center;
+    border-bottom: solid 0.5px #d5d7e4;
+    margin-bottom: 15px;
+}
+
+.selectForm {
+    width: 45%;
+    height: 100%;
+}
+
+.selectCont {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-bottom: solid 0.5px #d5d7e4;
+    margin-bottom: 18px;
+}
+
+.selectCont select {
+    width: 100%;
+    line-height: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: help;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #d5d7e4;
+    font-style: italic;
+    letter-spacing: 0.4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .selectCont select::-ms-expand {
+    display: none;
+  }
+
+  .selectCont select:hover,
+  .selectCont select:focus {
+    color: #626b79;
+  }
+

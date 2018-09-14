@@ -1,0 +1,75 @@
+.titleCont {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: #aab3c2;
+    font-family: Roboto;
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+
+.scheduleCont {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.scheduleCont p,
+.dayForm {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #626b79;
+}
+
+.scheduleForm {
+    margin-left: 50px;
+}
+
+.dayForm {
+    display: inline-block;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.dayForm input {
+    width: 22px;
+    height: 24px;
+    border-radius: 2px;
+    border: solid 0.5px #d5d7e4;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
+    color: #626b79;
+    background-color: transparent;
+}
+
+.dayForm input[type="text"]::-webkit-input-placeholder { color: #626b79; }
+.dayForm input[type="text"]:-ms-input-placeholder { color: #626b79; }
+.dayForm input[type="text"]::-ms-input-placeholder { color: #626b79; }
+.dayForm input[type="text"]::placeholder { color: #626b79; }
+
+.checkboxCont {
+    margin-left: 4px;
+}
+
+.checkboxCont input {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 1px;
+    border: solid 0.5px #d5d7e4;
+    background-color: transparent;
+}
+
+.checkboxCont span {
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #aab3c2;
+}

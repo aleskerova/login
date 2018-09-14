@@ -1,0 +1,32 @@
+.titleContact {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: #aab3c2;
+    font-family: Roboto;
+    font-size: 20px; 
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.accountCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    width: 100%;
+}
+  
+.contactForm {
+    width: 40%;
+}
+
+input[type="text"]::-moz-placeholder {
+    color: #d5d7e4; /* Цвет подсказывающего текста */
+   }
+input[type="text"]::-webkit-input-placeholder { color: #d5d7e4; }
+input[type="text"]:-ms-input-placeholder { color: #d5d7e4; }
+input[type="text"]::-ms-input-placeholder { color: #d5d7e4; }
+input[type="text"]::placeholder { color: #d5d7e4; } 
+

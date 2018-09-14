@@ -1,0 +1,89 @@
+.titleCont {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    color: #aab3c2;
+    font-family: Roboto;
+    font-size: 20px; 
+    letter-spacing: 1px;
+}
+
+.nameCont {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nameCont p,
+.textCont p {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1.9;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #aab3c2;
+}
+
+.first {
+    width: 50%;
+}
+
+.next {
+    width: 10%;
+}
+
+.projectCont {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    border: solid 0.5px #d5d7e4;
+    margin-bottom: 40px;
+}
+
+.projectCont .block1 {
+    width: 40%;
+    position: relative;
+}
+
+.projectCont .block1 select {
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: underline #626b79;
+    color: #626b79;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+.projectCont .block2 {
+    width:50%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.projectCont .block2 input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-left: solid 0.5px #d5d7e4;
+    background: transparent;
+}
+
+.projectCont .block3 {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    border-left: solid 0.5px #d5d7e4;
+    padding-top: 8px;
+}
