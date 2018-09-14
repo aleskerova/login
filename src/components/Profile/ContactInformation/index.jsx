@@ -53,11 +53,7 @@ class ContactInformation extends PureComponent {
                 className="profileInput"
               />
               <Button className="calendar">
-                <IconAdd
-                  width="25"
-                  height="25"
-                  fill="rgba(98, 107, 121, 0.5)"
-                />
+                <IconAdd width="15" height="15" fill="#8b92a9" />
               </Button>
             </div>
           </div>

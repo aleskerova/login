@@ -108,11 +108,7 @@ class AccountInformation extends PureComponent {
                 <option>Developers</option>
                 <option>Designers</option>
               </select>
-              <IconArrow
-                width="25"
-                height="25"
-                fill="rgba(98, 107, 121, 0.5)"
-              />
+              <IconArrow width="13" height="13" fill="#626b79" />
             </div>
             <div className="selectCont">
               <select>
@@ -122,11 +118,7 @@ class AccountInformation extends PureComponent {
                 <option disabled>Back-End Developer</option>
                 <option disabled>Designer</option>
               </select>
-              <IconArrow
-                width="25"
-                height="25"
-                fill="rgba(98, 107, 121, 0.5)"
-              />
+              <IconArrow width="13" height="13" fill="#626b79" />
             </div>
             <div className="selectCont">
               <select>
@@ -136,11 +128,7 @@ class AccountInformation extends PureComponent {
                 <option disabled>Middle</option>
                 <option disabled>Senior</option>
               </select>
-              <IconArrow
-                width="25"
-                height="25"
-                fill="rgba(98, 107, 121, 0.5)"
-              />
+              <IconArrow width="13" height="13" fill="#626b79" />
             </div>
             <div className="selectCont">
               <select>
@@ -150,11 +138,7 @@ class AccountInformation extends PureComponent {
                 <option disabled>?</option>
                 <option disabled>?</option>
               </select>
-              <IconArrow
-                width="25"
-                height="25"
-                fill="rgba(98, 107, 121, 0.5)"
-              />
+              <IconArrow width="13" height="13" fill="#626b79" />
             </div>
           </div>
         </div>
