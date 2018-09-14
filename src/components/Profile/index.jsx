@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { shape } from 'prop-types';
 import AccountInformation from './AccountInformation';
 import ContactInformation from './ContactInformation';
@@ -11,27 +11,25 @@ import Vacation from './Vacation';
 
 import './Profile.css';
 
-export default class Profile extends Component {
-  static propTypes = {
-    user: shape().isRequired,
-  };
+const Profile = ({ user }) => (
+  <div className="profPage">
+    <AccountInformation user={user} />
+    <ContactInformation />
+    <WorkSchedule />
+    <WorkRates />
+    <Projects />
+    <SickTime />
+    <PTO />
+    <Vacation />
+  </div>
+);
 
-  state = {};
+Profile.propTypes = {
+  user: shape(),
+};
 
-  render() {
-    // const user = JSON.parse(localStorage.getItem('user'));
-    const { user } = this.props;
-    return (
-      <div className="profPage">
-        <AccountInformation user={user} />
-        <ContactInformation />
-        <WorkSchedule />
-        <WorkRates />
-        <Projects />
-        <SickTime />
-        <PTO />
-        <Vacation />
-      </div>
-    );
-  }
-}
+Profile.defaultProps = {
+  user: {},
+};
+
+export default Profile;

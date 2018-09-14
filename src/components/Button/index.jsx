@@ -8,7 +8,7 @@ const Button = ({ children, onClick, className }) => (
 );
 
 Button.propTypes = {
-  children: PropTypes.instanceOf(Array).isRequired,
+  children: PropTypes.instanceOf(Object).isRequired,
   className: string.isRequired,
   onClick: func,
 };
